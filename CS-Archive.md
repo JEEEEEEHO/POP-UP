@@ -12,6 +12,11 @@
         컨텍스트 스위칭에 대해 설명해보세요.250306TUE
     </summary>
 </details>
+<details>
+    <summary>
+        동기와 비동기의 차이(블로킹, 넌블로킹) / 장단점에 대해 설명해보세요.250307FRI
+    </summary>
+</details>
 <br><br>
 
 ## 네트워크
@@ -32,6 +37,11 @@
         TCP와 UDP의 차이점에 대해서 설명해보세요.250306TUE
     </summary>
 </details>
+<details>
+    <summary>
+        TCP 3, 4 way handshake에 대해서 설명해보세요.250307FRI
+    </summary>
+</details>
 <br><br>
 
 ## 언어 - Java
@@ -44,6 +54,11 @@
 <details>
     <summary>
         GC가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.250306TUE
+    </summary>
+</details>
+<details>
+    <summary>
+        컬렉션 프레임워크에 대해서 설명해주세요.250307FRI
     </summary>
 </details>
 <br><br>
@@ -60,6 +75,11 @@
         Spring Bean이란 무엇인가요?250306TUE
     </summary>
 </details>
+<details>
+    <summary>
+        스프링 Bean의 생성 과정을 설명해주세요.250307FRI
+    </summary>
+</details>
 <br><br>
 
 ## 데이터베이스
@@ -74,13 +94,18 @@
         트랜잭션에 대해서 설명해주세요.250306TUE
     </summary>
 </details>
+<details>
+    <summary>
+        ACID에 대해서 설명해주세요.250307FRI
+    </summary>
+</details>
 <br><br>
 
 ## ORM - JPA
 
 <details>
     <summary>
-        접고 펴는 기능
+        JPA 영속성 컨텍스트의 이점(5가지)을 설명해주세요.250307FRI
     </summary>
 </details>
 <br><br>
