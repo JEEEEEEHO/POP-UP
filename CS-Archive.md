@@ -26,6 +26,19 @@
         멀티스레드 프로그래밍에 대해 설명해보세요. 250311TUE
     </summary>
     <p>[나의 답변] 한 프로세스에서 여러개의 스레드가 동시에 작업을 수행하는 프로그래밍 방법. 
+    <p> CPU 코어가 한 번에 단 하나의 작업만 수행할 수 있으므로 여러개의 스레드를 `번갈아` 수행하므오써 동시에 수행되는 것 처럼 보이게 함 
+</details>
+<details>
+    <summary>
+        Thread-safe 하다는 의미와 설계하는 법을 설명해보세요. 250314FRI
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        프로세스 동기화에 대해 설명해보세요.
+    </summary>
+    <p>[나의 답변] 
 </details>
 <br><br>
 
@@ -56,13 +69,24 @@ Udp 는 순서는 상관없이 무작위로 패킷을 전송하여 빠른 전송
     </summary>
     <p>[나의 답변] 클라이언트에서 요청이 온 이후에 서버에 도달하기 전, 네트워크 통신이 시작되는 그 과정을 말함. svn? 요청 -> 응답 -> 요청 -> 응답 3번 하는 것으로 알고 있음
 </details>
-
 <details>
     <summary>
         HTTP와 HTTPS의 차이점에 대해서 설명해보세요. 250311TUE
     </summary>
     <p>[나의 답변] 기존에 HTTP 프로토콜에 SSL 보안 레이어가 추가된  형태 
     <p> HTTP 프로토콜은 텍스트 교환 (데이터가 평문으로 전달), HTTPS는 중간에 SSL 인증서가 추가되어 데이터를 주고 받을 떄, 인증 과정을 거치게 됨 
+</details>
+<details>
+    <summary>
+        HTTPS에 대해서 설명하고 SSL Handshake에 대해서 설명해보세요. 250314FRI
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        CORS란 무엇이며 이것에 대해서 설명해보세요.
+    </summary>
+    <p>[나의 답변] 
 </details>
 <br><br>
 
@@ -92,6 +116,27 @@ Udp 는 순서는 상관없이 무작위로 패킷을 전송하여 빠른 전송
         애노테이션에 대해서 설명해주세요. 250311TUE
     </summary>
     <p>[나의 답변] 스프링이 컴파일링이 될 때 스캔하여 특정 동작을 프록시 객체로 넣어서 수행시킬 수 있게 하는 기능 
+    <p> [부가 설명] 다른 프로그램에게 `유용한 정보`를 제공하기 위해 사용하는 것으로 주석과 같은 의미를 가짐 
+    <p> 1) 컴파일러에게 문법 에러를 체크하도록 정보를 제공 2) 프로그램을 빌드할 때 코드를 자동 생성할 수 있도록 정보 제공 3) 런타임에 특정 기능을 실행하도록 정보 제공 
+    <p> ** 컴파일링과 빌드의 차이는 무엇일까 
+</details>
+<details>
+    <summary>
+        오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요? 250314FRI
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        컴파일링과 빌드의 차이
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        인터페이스와 추상클래스의 차이점에 대해 설명해주세요.
+    </summary>
+    <p>[나의 답변] 
 </details>
 <br><br>
 
@@ -118,6 +163,18 @@ Udp 는 순서는 상관없이 무작위로 패킷을 전송하여 빠른 전송
 <details>
     <summary>
         스프링 Bean의 Scope에 대해서 설명해주세요. 250311TUE
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        IoC 컨테이너의 역할은 무엇이 있을까요? 250314FRI
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        DI 종류는 어떤것이 있고, 이들의 차이는 무엇인가요?
     </summary>
     <p>[나의 답변] 
 </details>
@@ -148,6 +205,18 @@ Udp 는 순서는 상관없이 무작위로 패킷을 전송하여 빠른 전송
     </summary>
     <p>[나의 답변] 
 </details>
+<details>
+    <summary>
+        정규화에 대해서 설명해주세요. 250314FRI
+    </summary>
+    <p>[나의 답변] 
+</details>
+<details>
+    <summary>
+        RDBMS vs NOSQL에 대해서 설명해주세요.
+    </summary>
+    <p>[나의 답변] 
+</details>
 <br><br>
 
 ## ORM - JPA
@@ -157,6 +226,12 @@ Udp 는 순서는 상관없이 무작위로 패킷을 전송하여 빠른 전송
         JPA 영속성 컨텍스트의 이점(5가지)을 설명해주세요.250310MON
     </summary>
     <p>[나의 답변] 인서트를 하게될 때 영속성 컨텍스트에 캐시 값이 있으면 업데이트를 하게되고, 매번 커밋을 하는 것이 아니라 모았다가 한번에 디비에 접근한다는 점? 계속해서 커넥션 얻을 필요가 없음
+</details>
+<details>
+    <summary>
+        JPA Propagation 전파단계를 설명해주세요. 250314FRI
+    </summary>
+    <p>[나의 답변] 
 </details>
 <br><br>
 
